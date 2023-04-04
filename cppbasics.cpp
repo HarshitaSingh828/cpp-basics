@@ -168,3 +168,37 @@ int main() {
      cout<<arr[i];   
     }
 }
+
+
+
+
+
+
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+   // list<int>ls;
+   // ls.push_back(1);
+   // ls.push_back(2);
+   // ls.push_back(3);
+   // ls.push_front(4);  
+   // for(auto it:ls){
+   //     cout << it << endl;
+   // }
+   // cout<<*ls.begin();
+   // cout<< *ls.end(); 
+    // cout<< ls.back();
+    stack<int>st;
+    st.push(1);
+    st.push(2);
+    st.push(3);
+    // while(st.size()!=0){
+    //     cout<< st.top()<< endl;
+    //     st.pop();
+    // }
+    // cout<<st.top();
+    // cout<<st.size();
+    cout<<st.empty();
+}
