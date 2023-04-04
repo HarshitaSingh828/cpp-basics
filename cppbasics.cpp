@@ -202,3 +202,33 @@ int main() {
     // cout<<st.size();
     cout<<st.empty();
 }
+
+
+
+
+
+
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+queue<int>q;
+    q.push(1);
+    q.push(2);
+    q.push(3);
+//     for(int i = 0; i < q.size(); i++){
+//         cout<<q.front()<<endl;
+//         q.pop();
+//     }
+    // peek
+    // cout<<q.front();
+    // remove
+    // cout<<q.front();
+    // q.pop();
+    
+    cout<<q.back()<<endl;
+    
+    q.back()+=3;
+    
+     cout<<q.back();
+}
