@@ -232,3 +232,92 @@ queue<int>q;
     
      cout<<q.back();
 }
+
+
+
+
+
+
+
+
+
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    // priority_queue<int>pq;
+    // pq.push(1);
+    // pq.push(2);
+    // pq.push(3);
+    
+    // cout<<pq.top();
+    // pq.pop();
+     
+   // cout<< pq.size();
+   // cout<< pq.empty();
+    
+//     while(pq.size()!=0){
+//         cout<< pq.top()<< endl;
+//         pq.pop();
+//     }
+    
+    // priority_queue<int,vector<int>,greater<int>>pq;
+    //     pq.push(1);
+    //     pq.push(2);
+    //     pq.push(3);
+    //      while(pq.size()!=0){
+    //     cout<< pq.top()<< endl;
+    //     pq.pop();
+    // }
+    
+    // set<int>set;
+    // set.insert(1);
+    // set.insert(1);
+    // set.insert(2);
+    // set.insert(3);
+    
+    // for(auto it = set.begin(); it != set.end(); it++)
+    // cout<< *(it) << endl;
+    
+//     auto it = set.find(1);
+//     cout<< *it;
+    
+    // set.erase(1);
+    // for(auto it = set.begin(); it != set.end(); it++)
+    // cout<< *(it) << endl;
+//     auto it = set.find(1);
+//     set.erase(1);
+    
+    
+    // int cnt = set.count(1);
+    // cout<<cnt;
+    
+    
+    // multiset<int>ms;
+    // ms.insert(1);
+    // ms.insert(1);
+    // ms.insert(2);
+    // ms.insert(3);
+    // cout<< ms.count(1);
+    //  for(auto it = ms.begin(); it != ms.end(); it++)
+    // cout<< *(it) << endl;
+    // ms.erase(1);
+    // for(auto it = ms.begin(); it != ms.end(); it++)
+    // cout<< *(it) << endl;
+   // ms.erase(ms.find(1));
+   //  for(auto it = ms.begin(); it != ms.end(); it++)
+   //  cout<< *(it) << endl;
+    
+    map<int,int>mpp;
+    mpp[1]=2;
+    mpp[2]= 3;
+    mpp[3]= 4;
+    mpp[4]= 5;
+   
+    // for(auto it : mpp){
+    //     cout<< it.first <<" "<<it.second  << endl;
+    // }
+    
+    auto it= mpp.find(2);
+    coutt<< (it).second;
+}
